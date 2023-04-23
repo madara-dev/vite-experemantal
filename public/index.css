@@ -1,0 +1,72 @@
+.warning-denger{
+            
+    color: rgb(0, 0, 0);
+    padding: 10px 10px;
+    /* padding: 20px; */
+
+    margin: 5px;
+    border-left: 3px solid rgb(255, 10, 10);
+    background-color: rgba(220, 105, 105, 0.3);
+    border-radius: 5px 0 5px 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+.warning-success{
+    color: rgb(0, 0, 0);
+    padding: 10px 10px;
+    /* padding: 20px; */
+
+    margin: 5px;
+    border-left: 3px solid rgb(9, 241, 33);
+    background-color: rgba(89, 131, 96, 0.3);
+    border-radius: 5px 0 5px 0;
+}
+
+#card{
+    padding-top: 80px;
+}
+
+#regmain{
+    padding-top: 40px;
+
+}
+
+
+.Bg-color-dark{
+    background-color: #201d1d;
+    border: 0;
+}
+.Bg-color-light{
+    background-color: white;
+    border: 0;
+}
+
+.lighttext{
+    color: white;
+}
+
+.animatewarn{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    animation: warn 500ms;
+    transition: 300ms;
+    z-index: 4;
+    }
+    
+    @keyframes warn{
+    0%{
+    opacity :0;
+    translate: 100%
+    }
+    
+    100%{
+    translate: 0;
+    }
+    } 
+
+
+
+ 
